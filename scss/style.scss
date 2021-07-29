@@ -1,0 +1,602 @@
+/*
+Theme Name: Bootstrap 4 Sass
+Description: Bootstrap 4 with Sass
+*/
+
+
+p {
+  font-family: "Lato", Helvetica, Verdana, sans-serif;
+}
+
+
+   body{
+     #content{
+       .navbar{
+         width: 100%;
+         display: flex;
+         position: relative;
+         background-color:  #3dadc3;
+         padding: 0;
+         .btn-secondar{
+           .bi-list{
+             position: relative;
+             left: 85%;
+             color: white;
+             font-size: 30px;
+           }
+         }
+         .menu{
+           position: absolute;
+           left: 0;
+           top: 0;
+         }
+         .navbar-Facebook{
+           position: relative;
+           left: 65px;
+           color: white;
+           font-size: 25px;
+         }
+         .contact{
+           display: inline-flex;
+           position: relative;
+           right: 5%;
+           .navbar-location{
+             width: 40px;
+             height: 30px;
+             border-radius: 50%;
+             background-color: white;
+             text-align: center;
+             color: #3dadc3;
+             font-size: 20px;
+           }
+           .navbar-account{
+             margin-left: 5%;
+             margin-right: 5%;
+             .fa-user-circle{
+               font-size: 30px;
+               color: white;
+             }
+           }
+           .navbar-mail{
+             width: 40px;
+             height: 30px;
+             border-radius: 50%;
+             background-color: white;
+             text-align: center;
+             color: #3dadc3;
+             font-size: 20px;
+           }
+         }
+         nav{
+           width: 100%;
+           padding: 0;
+           img{
+             width: 100px;
+             margin-left: auto;
+             margin-right: auto;
+           }
+         }
+         .dropdown-menu{
+           background-color: #3dadc3;
+           opacity: 85%;
+           border: unset;
+           width: 875px;
+           height: 780px;
+           border-radius: 0;
+           a{
+             color: white;
+             font-size: 25px;
+           }
+           img{
+              position: relative;
+              left: 15%;
+              width: 150px;
+           }
+           .closing-cross{
+             position: relative;
+             left: 55%;
+           }
+           .dropdown-item{
+             width: 50%;
+             position: relative;
+             left: 15%;
+             margin-top: 5%;
+             &:hover{
+               text-decoration: none;
+               background-color: #168787;
+             }
+           }
+         }
+       }
+      .background-banner{
+        background-color: #582900;
+        .banner{
+          height: 600px;
+          background : url(../images/fond_chronoassistante.jpg) ;
+          background-size: cover;
+          opacity: 70%;
+          .hook{
+            position: relative;
+            right: 10%;
+            top: 80%;
+            h6, p{
+              color: white;
+              text-align: right;
+              font-size: 20px;
+            }
+          }
+        }
+      }
+
+       .container-fluid-1{
+         display: inline-flex;
+         margin-top: 5%;
+         width: 100%;
+         height: 500px;
+         margin-bottom: 2%;
+         .div1{
+           background-color: white;
+           padding-left: 5%;
+           padding-right: 5%;
+           padding-top: 5%;
+           padding-bottom: 15%;
+           position: relative;
+           left: 25%;
+           top: 10%;
+           z-index: 1;
+           h4{
+             text-transform: uppercase;
+             color: #f5cf60
+           }
+           p {
+             text-transform : uppercase;
+             color: #157198;
+           }
+         }
+         .div2{
+           background-color: #f5cf60;
+           text-align: center;
+           left: 83%;
+           position: relative;
+           width: 250px;
+           padding: 15px;
+           top: 3%;
+           z-index: 2;
+           p{
+             text-transform: uppercase;
+             color: white;
+           }
+         }
+         .div3{
+           position: relative;
+           bottom: 35%;
+           z-index: 4;
+         }
+         .div4{
+           position: relative;
+           bottom: 73%;
+           left: 118%;
+           z-index: 3;
+         }
+         .div5{
+           img {
+             width: 100%;
+             height: 70%;
+             background-color: rgba(0, 0, 255, 0.5);
+             opacity: 85%;
+           }
+         }
+       }
+       .essai{
+         img {
+           filter: #f5cf60 (100%);
+         }
+       }
+.background-container{
+  .container-fluid-2{
+    background : url(../images/white_building.jpg) ;
+    background-repeat: no-repeat;
+    height: 525px;
+    display: flex;
+    weight: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    opacity: 80%;
+    .div6{
+      position: relative;
+      top: 25px;
+    }
+    .div7{
+      width: 90%;
+      padding-left: 10%;
+      position: relative;
+      top: 15%;
+      h4{
+        text-transform: uppercase;
+        color: white;
+        text-align: right;
+      }
+      p{
+        text-transform: uppercase;
+        color : #147097;
+        text-align: right;
+      }
+    }
+    .div8{
+      background: #49afc5;
+      position: relative;
+      width: 250px;
+      z-index: 2;
+      left: 67%;
+      text-align: center;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      padding-top: 23px;
+      padding-bottom: 5px;
+      top: 125px;
+    }
+    .div9{
+      position: relative;
+      right: 5%;
+      bottom: 15%;
+    }
+    .div10{
+      position: relative;
+      left: 60%;
+    }
+  }
+
+}
+
+/*=========== START BLOCS =============*/
+
+/*---- START FOOTER ----*/
+.footer
+{
+	background-image: url("../images/footer4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	width: 100%;
+
+	color: white;
+	text-align:center;
+	position: relative;
+
+}
+
+
+.footer_wrapper
+{
+	background-color: rgba(35, 151, 168, 0.5);
+	z-index:3;
+
+	margin-bottom: 0;
+
+	display: flex;
+	flex-direction: column;
+}
+
+
+.adress
+{
+	font-size: 1.6em;
+/*	border: 2px solid red; */
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+#logo_c, #logo_k, .adress
+
+{
+	padding: 1%;
+}
+
+
+.footer_nav
+{
+/*	border: 2px solid pink;*/
+	display: flex;
+	z-index:2;
+	font-size: 1.3em;
+	margin: auto;
+
+	padding-bottom:1%;
+
+
+}
+
+ul
+{
+	list-style-type: none;
+	justify-content: space-around;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+ul li
+{
+	display: inline-block;
+	padding-top :1%;
+	padding-left: 5px ;
+	padding-right: 5px ;
+}
+
+
+/*---- END FOOTER ----*/
+
+/*---- START FOURTH BLOC ----*/
+.fourth
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+/*	border: 2px solid blue;*/
+
+	/*position*/
+	position: relative;
+	margin-bottom: 4%;
+	margin-top: 4%;
+
+	height: 60%;
+
+
+}
+
+.yellow_bloc
+{
+	background-color: #f7cf5e;
+	color: white;
+	font-size: 2.4em;
+	height: 17%;
+	width: 23%;
+
+	z-index: 1;
+	display: flex;
+
+	/*position*/
+	position: absolute;
+	top: 90%;
+	right: 20%;
+/*	border: 2px solid red;*/
+
+	/*text-align: center;*/
+
+}
+
+.yellow_bloc_text
+{
+	margin: auto;
+	padding: auto;
+
+/*	border: 2px solid purple;*/
+	text-align: center;
+	vertical-align: middle;
+}
+
+.icons_bloc
+{
+/*	border: 2px solid pink; */
+	display: flex;
+	flex-direction: column;
+	padding-left: 4%;
+	padding-right:4%;
+}
+
+.blue_bloc
+{
+/*	border: 7px solid maroon;*/
+	display: flex;
+	flex-direction: column;
+	margin-left: 8%;
+	margin-right: 8%;
+	margin-top: 0;
+
+
+
+}
+
+
+.blue_bloc_text
+{
+
+	background-image: linear-gradient(#3dadc3,#277a8c);
+
+	color: white;
+	text-align: justify;
+	font-size: 1.2em;
+/*	border: 3px solid silver; */
+
+
+	border-radius: 15px;
+	width: 390px;
+	height: 445px;
+
+
+		 .triangle
+	{
+	/*	border: 2px solid black;*/
+		width: 9%;
+		margin-left: 70%;
+
+
+	}
+
+	p
+	{
+		padding: 10%;
+		font-weight: bold;
+
+	}
+
+}
+
+.pattern_bloc
+{
+	display: flex;
+/*	border: 2px solid lime; */
+	width:80%;
+	height: 80%;
+
+	align-self: flex-end;
+
+
+
+
+}
+
+.points
+{
+
+/*	color: #3cafc4;*/
+	color: black;
+	font-size: 2em;
+/*	border: 2px solid yellow;*/
+
+	margin-bottom: 20%;
+
+}
+
+/*---- END FOURTH BLOC ----*/
+
+/*=========== END BLOCS =============*/
+/*========== START INLINE ===========*/
+
+.footer h2
+{
+	font-size:3em;
+}
+
+/*----start links-----*/
+
+.footer_icons a, .footer_nav a,
+.footer_icons a:hover, .footer_nav a:hover
+{
+	text-decoration: none;
+	color: white;
+}
+
+/*----End links-----*/
+
+.blue_bloc h3
+{
+
+	text-align: center;
+	padding-top: 3%;
+	margin:0;
+}
+
+ .signature
+{
+
+	margin-left: 50%;
+	padding-bottom: 30%;
+
+}
+
+.points p
+{
+	display: grid;
+	margin-left: auto;
+	margin-left: auto;
+	justify-content: center;
+}
+
+/*============ END INLINE ==============*/
+/*===========START PICTURES=============*/
+
+/*----start logos ----*/
+
+
+#logo_c, #logo_k
+{
+/* border: 2px solid lightblue; */
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#logo_c
+{
+	width: 350px;
+}
+#logo_k
+{
+	width: 300px;
+}
+
+.logo_c_color
+{
+
+	width: 200px;
+
+/*	border: 2px solid cyan; */
+
+	margin-left: auto;
+ 	margin-right: auto;
+}
+
+/*-----end logos -----*/
+/*-----start icons ----*/
+
+.footer_icons
+{
+	display: flex;
+/*	border: 2px solid orange; */
+	justify-content: center;
+	z-index:2;
+
+	padding-bottom:1%;
+
+}
+
+ .fa-facebook-f,
+ .fa-user
+ {
+ 	font-size: 2em;
+ 	margin-left: 20px;
+ 	margin-right: 20px;
+
+
+ }
+
+ .fa-user-graduate
+ {
+ 	font-size: 12em;
+ 	color: #187199;
+/*	border: 2px solid #187199; */
+
+
+ 	margin-top: 12%;
+ 	margin-left: auto;
+ 	margin-right: auto;
+	padding-bottom: 30%;
+ }
+
+.pattern
+{
+
+/*	border: 2px solid teal; */
+	align-self: flex-end;
+
+
+}
+
+ /*-----end icons -----*/
+
+
+
+.right_picture
+{
+/*	border: 2px solid red; */
+
+}
+
+/*=========== END PICTURES=============*/
+
+     }
+
+     }
